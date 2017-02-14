@@ -98,6 +98,7 @@ static void register_stuff(struct context *ctx) {
                     jobs,
                     "distcc="PACKAGE_VERSION,
                     "gnuhost="GNU_HOST,
+                    "options=cpp,lzo",
                     v ? version : NULL,
                     m ? machine : NULL,
                     NULL) < 0) {
